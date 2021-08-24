@@ -1,0 +1,31 @@
+networks,performance,stdev (bootstrap n=100),pdb,physiochemical properties
+CNN-1D,0.88557,0.00492,NA,Nucleation
+CNN-2D,0.87945,0.00597,NA,Nucleation
+RNN,0.87496,0.00514,NA,Nucleation
+"GSN-AVE, threshold 9",0.88036,0.00601,1iyt,Nucleation
+"GSN-SW, threshold 6",0.73519,0.00857,1iyt,Nucleation
+"GSN-SW, threshold 14",0.73235,0.00959,1iyt,Nucleation
+"GSN-AVE, threshold 9",0.8814,0.00494,2nao,Nucleation
+"GSN-SW, threshold 6",0.59761,0.0102,2nao,Nucleation
+"GSN-SW, threshold 14",0.7412,0.0089,2nao,Nucleation
+"GSN-AVE, threshold 9",0.882756,0.00441,5oqv,Nucleation
+"GSN-SW, threshold 6",0.63552,0.01171,5oqv,Nucleation
+"GSN-SW, threshold 14",0.64655,0.01203,5oqv,Nucleation
+LR,0.86213,0.00562,NA,Nucleation
+FCN,0.85837,0.00538,NA,Nucleation
+CNN-1D,0.84072,0.0289,NA,Solubility
+CNN-2D,0.90599,0.01441,NA,Solubility
+RNN,0.90969,0.01671,NA,Solubility
+"GSN-AVE, threshold 9",0.92124,0.01508,1iyt,Solubility
+"GSN-AVE, threshold 9",0.91905,0.01314,2nao,Solubility
+"GSN-AVE, threshold 9",0.92694,0.01372,5oqv,Solubility
+LR,0.57034,0.05005,NA,Solubility
+FCN,0.71882,0.03377,NA,Solubility
+CNN-1D,0.82354,0.02716,NA,Synonymous
+CNN-2D,0.89683,0.01982,NA,Synonymous
+RNN,0.90608,0.0148,NA,Synonymous
+"GSN-AVE, threshold 9",0.92327,0.01397,1iyt,Synonymous
+"GSN-AVE, threshold 9",0.93373,0.01235,2nao,Synonymous
+"GSN-AVE, threshold 9",0.92929,0.0146,5oqv,Synonymous
+LR,0.38316,0.06779,NA,Synonymous
+FCN,0.57034,0.06234,NA,Synonymous
